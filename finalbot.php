@@ -12,6 +12,6 @@ print_r($updateArray);
 $chatId = $updateArray["result"][0]["message"]["chat"]["id"];
 
 
-file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=what of him??");  
+file_get_contents($website."/sendmessage?chat_id=".$chatId."&text=FinalBot");  
 
 ?>
